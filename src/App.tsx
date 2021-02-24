@@ -1,11 +1,13 @@
-import React from 'react';
-
 import GlobalStyles from './styles/global';
 
-const App: React.FC = () => {
+import ExperienceBar from './components/ExperienceBar';
+
+const App = () => {
   return (
     <>
-      <h1>Hello World</h1>
+      <div className="container">
+        <ExperienceBar />
+      </ div>
       <GlobalStyles />
     </>
   );
